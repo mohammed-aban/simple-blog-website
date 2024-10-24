@@ -6,26 +6,15 @@
   @supports (font-variation-settings: normal) {
     :root { font-family: InterDisplay, sans-serif; }
   }
-html{
-    box-sizing: border-box;
-    height: 100%;
-}
 
-*,
-*::before,
-*::after{
-    box-sizing: inherit;
-    margin: 0;
-    padding: 0;
+*{
+    margin: 0%;
+    padding: 0%;
 }
 
 body{
-    align-items: center;
     background: #010101;
-    display: flex;
     font-family: 'InterDisplay', sans-serif;
-    height: inherit;
-    justify-content: center;
 }
 
 .title {
